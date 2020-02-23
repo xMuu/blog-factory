@@ -1,0 +1,8 @@
+{
+  "name": "xMuu‘s Blog",
+  "theme_color": "#727b97",
+  "background_color": "#f8f9fa",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}

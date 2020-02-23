@@ -13,7 +13,7 @@ branches:
 before_install:
   - export TZ='Asia/Shanghai'
   - npm install -g hexo-cli
-  - cd theme/suka/
+  - cd themes/suka/
   - npm i --production
   - cd ../../
 

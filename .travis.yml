@@ -25,6 +25,7 @@ script:
 
 after_script:
   - cd ./public
+  - echo "blog.ilve.me" >> "CNAME"
   - git init
   - git config user.name "${GH_NAME}"
   - git config user.email "${GH_EMAIL}"

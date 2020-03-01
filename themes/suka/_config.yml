@@ -18,17 +18,17 @@ head:
   #   To get or check favicons visit: https://realfavicongenerator.net
   favicon:
     # You should use a image/x-icon type icon and configure it here.
-    ico: /img/favicon.ico
+    ico: /favicon.ico
     # 16x16 png
-    small: /img/favicon-16.png
+    small: /img/favicons/favicon-16.png
     # 32x32 png
-    medium: /img/favicon-16.png
+    medium: /img/favicons/favicon-16.png
     # 180x180 png
-    apple_touch_icon: /img/favicon-180.png
+    apple_touch_icon: /img/favicons/favicon-180.png
     # 192x192 png
-    large: /img/favicon-192.png
+    large: /img/favicons/favicon-192.png
     # svg icon
-    safari_pinned_tab: /img/favicon.svg
+    safari_pinned_tab: /img/favicons/favicon.svg
   # Color
   #   It will defined color below:
   #     Android Chrome Color
@@ -80,7 +80,7 @@ uiux:
   bg_color:
 
 img:
-  avatar: '/img/xmuu_avatar.jpg'
+  avatar: '/img/avatars/xmuu_avatar.jpg'
 
 # ---------------------------------------------------------------
 # Menu Settings

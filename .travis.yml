@@ -24,11 +24,16 @@ script:
   - hexo g
 
 after_script:
+  - git config --global user.name "${GH_NAME}"
+  - git config --global user.email "${GH_EMAIL}"
   - cd ./public
   - echo "blog.ilve.me" >> "CNAME"
   - git init
-  - git config user.name "${GH_NAME}"
-  - git config user.email "${GH_EMAIL}"
   - git add .
   - git commit -m "Travis CI Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REPO}" master:master
+  - cd ../source/img
+  - git init
+  - git add .
+  - git commit -m "Travis CI Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
+  - git push --force --quiet "https://${GITEE_ACCOUNT}@{GITEE_REPO}" master:master

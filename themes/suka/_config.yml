@@ -80,7 +80,7 @@ uiux:
   bg_color:
 
 img:
-  avatar: '/img/avatars/xmuu_avatar.jpg'
+  avatar: 'https://xmuu.gitee.io/blog-images/avatars/xmuu_avatar.jpg'
 
 # ---------------------------------------------------------------
 # Menu Settings

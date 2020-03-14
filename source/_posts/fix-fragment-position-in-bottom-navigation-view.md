@@ -21,7 +21,7 @@ tags:
 
 新建完 BottomNavigationView 后通过虚拟机启动，可以看到以下画面，没有别的元素时，不会发现问题。（其实如果眼尖一点，可以发现文字不是居中的。）
 
-![初始效果](/img/posts/FragmentFix/original.png)
+![初始效果](https://upload.cc/i1/2020/03/14/ueTXKU.png)
 
 但是如果我们在任意一个 Fragment 里面创建一点内容，这里以一个带颜色的 View 和原本自带的文字为例，View 我设置宽高均匹配父元素，把文本放到了底部的位置，代码如下。
 
@@ -57,16 +57,16 @@ tags:
 
 在编辑器里面预览的效果是这样：
 
-![效果预览](/img/posts/FragmentFix/fragment_example.png)
+![效果预览](https://upload.cc/i1/2020/03/14/uRZHe4.png)
 
-现在，让我们再次启动程序，就会发现，View 的上方少了一块，本该在底部的文字不见了。
+现在，让我们再次启动程序，就会发现，View 的上方少了一块，本该在底部的文字也不见了。
 
-![错误效果](/img/posts/FragmentFix/test.png)
+![错误效果](https://upload.cc/i1/2020/03/14/FTBv2S.png)
 
 
 # 排查问题
 
-![位置错误](/img/posts/FragmentFix/position_error.png)
+![位置错误](https://upload.cc/i1/2020/03/14/MWZ8hL.png)
 
 可以看到，Fragment 的上方是没有跟父级元素贴合的，这个就导致了 Fragment 没有跟上方贴合。
 
@@ -77,7 +77,7 @@ tags:
 
 现在的效果就是这样：
 
-![错误一半效果](/img/posts/FragmentFix/test_2.png)
+![错误一半效果](https://upload.cc/i1/2020/03/14/TN5WAX.png)
 
 诶？文字呢？怎么文字还是看不到？
 
@@ -85,6 +85,6 @@ tags:
 
 这下子就没问题了：
 
-![正确效果](/img/posts/FragmentFix/final.png)
+![正确效果](https://upload.cc/i1/2020/03/14/GCOm1W.png)
 
 以上就是修正 BottomNavigationView 中 Fragment 位置错误的完整过程啦，其实就是水博客。（

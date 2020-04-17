@@ -24,7 +24,6 @@ after_script:
   - git config --global user.name "${GH_NAME}"
   - git config --global user.email "${GH_EMAIL}"
   - cd ./public
-  - echo "blog.ilve.me" >> "CNAME"
   - git init
   - git add .
   - git commit -m "Travis CI Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"

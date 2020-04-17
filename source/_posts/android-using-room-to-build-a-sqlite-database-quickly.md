@@ -6,7 +6,7 @@ tags:
   - Room
   - SQLite
   - Database
-thumbnail: https://upload.cc/i1/2020/04/14/CycAqj.png
+thumbnail: /img/posts/CycAqj.png
 ---
 
 Room 是 Google 提供的一个 ORM (Object Relational Mapping) 库，可以在 Android 开发中快速流畅地进行数据库访问。Room 提供了一个访问 SQLite 的抽象层，通过解析注解内容自动生成对应代码，大大提高了开发的效率。
@@ -19,7 +19,7 @@ Room 包含 3 个主要组件：
 - [**DAO**](https://developer.android.google.cn/training/data-storage/room/accessing-data?hl=zh-cn)：包含用于访问数据库的方法。
 - [**Entity**](https://developer.android.google.cn/training/data-storage/room/defining-data?hl=zh-cn)：表示数据库中的表。
 
-![room_architecture.png](https://upload.cc/i1/2020/04/14/KDuBNM.png)
+![room_architecture.png](/img/posts/KDuBNM.png)
 
 具体的各个组件的说明请查阅官方文档（[地址](https://developer.android.google.cn/training/data-storage/room?hl=zh-cn)）。下面将讲解如何使用 Room 快速构建一个数据库并配合 RecyclerView 输出数据库内容，实现一个简单的购物清单。
 
@@ -480,7 +480,7 @@ public class MainActivity extends AppCompatActivity {
 
 布局不太好看，不要介意，看效果就好。
 
-![效果图](https://upload.cc/i1/2020/04/14/EgIUnK.png)
+![效果图](/img/posts/EgIUnK.png)
 
 ## 源码以及 Demo
 

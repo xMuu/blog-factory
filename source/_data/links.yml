@@ -1,3 +1,8 @@
+"Beet's Blog":
+    url: https://blog.butanediol.me
+    img: https://cdn.v2ex.com/gravatar/af967302709f70e6676c70f2dba2314e?s=128
+    text: "Just talk something!"
+
 "Butanediol's Blog":
     url: https://blog.butanediol.me
     img: https://blog.butanediol.me/media/avatar.png
@@ -5,8 +10,18 @@
 
 "Cn47mP's Blog":
     url: https://blog.cn47mp.moe
-    img: https://secure.gravatar.com/avatar/b222c8aeac939a8a07b831de3b63ea5a?s=128
+    img: https://cdn.v2ex.com/gravatar/b222c8aeac939a8a07b831de3b63ea5a?s=128
     text: "477 的博客"
+
+"Parakeet":
+    url: https://niconiconi.org
+    img: https://avatars1.githubusercontent.com/u/10475064?s=128&v=4
+    text: "本站文章使用 CC BY-NC-SA 4.0 许可证"
+
+"simonsmh - 后花园":
+    url: https://simonsmh.cc
+    img: https://avatars0.githubusercontent.com/u/9512067?s=128&v=4
+    text: "快来与我一起发现更加广阔的互联网世界吧"
 
 "StarryVoid - Blog":
     url: https://blog.starryvoid.com
@@ -15,10 +30,15 @@
 
 "Sukka's Blog":
     url: https://blog.skk.moe
-    img: https://secure.gravatar.com/avatar/979869bac8c7bd23fbd649064eabd48e?s=128
+    img: https://cdn.v2ex.com/gravatar/979869bac8c7bd23fbd649064eabd48e?s=128
     text: "苏卡卡的有底洞"
 
 "yiheng's Blog":
     url: https://blog.yiheng.moe
-    img: https://secure.gravatar.com/avatar/374e36d02476e5b018738aa0df1e726f?s=128
+    img: https://cdn.v2ex.com/gravatar/374e36d02476e5b018738aa0df1e726f?s=128
     text: "yiheng 的小窝"
+
+"Zohar's Blog":
+    url: https://www.iwch.me
+    img: https://cdn.v2ex.com/gravatar/31d3e66668601e01caad117f66681b90?s=128&r=G&d=
+    text: "The Most Important Thing in My Life is Freedom"

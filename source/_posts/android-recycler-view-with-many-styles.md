@@ -1,12 +1,13 @@
 ---
-title: RecyclerView 样式多样化的实现
+title: 打造一个有不同 Item 布局的 RecyclerView 
 date: 2020-07-25 19:36:00
 tags:
   - Android
   - RecyclerView
+thumbnail: /img/posts/CycAqj.png
 ---
 
-RecyclerView 作为 ListView 的升级版，其强大的性能和极高的灵活性使得可以在项目中实现更多的列表效果，比如瀑布流、自定义头部尾部项目等，今天就利用 RecyclerView 来实现一个根据内容变化 Item 布局的列表布局。
+RecyclerView 作为 ListView 的升级版，其强大的性能和极高的灵活性使得可以在项目中实现更多的列表效果，比如瀑布流、自定义 Header 和 Footer 、不同内容的 Item 布局等，今天就利用 RecyclerView 来实现一个根据内容变化 Item 布局的列表布局，并添加一个横向滑动的列表作为 Header 。用到的主要是 RecyclerView.Adapter 中关于 View Type 的一些设定。
 
 
 ## 前期准备

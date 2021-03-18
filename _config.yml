@@ -105,4 +105,4 @@ deploy:
   type: ''
 
 # Minifier
-all_minifier: false
+all_minifier: true

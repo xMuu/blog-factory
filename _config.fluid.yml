@@ -550,7 +550,7 @@ post:
 
     # 描述文字
     # Descriptive text before date
-    content: 本文最后更新于：
+    content: "技术更新换代快，成本温馨提示，请注意文章的更新时间。<br />本文最后更新于："
 
     # 是否使用相对时间表示，比如："3 天前"
     # If true, it will be a relative time, such as: "3 days ago"
